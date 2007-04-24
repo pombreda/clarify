@@ -14,6 +14,13 @@ http://code.google.com/p/tesseract-ocr/
 
 ** *NOTE* you have to manually `cp -r ./tessdata /usr/local/bin` after building tesseract
 
+= Usage =
+
+See test.py and test_multi.py for usage details:
+
+This needs some clean up and simplification.
+
+
 
 = FAQ =
 
