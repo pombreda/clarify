@@ -1,6 +1,13 @@
+"""
+Author: David Dahl
+Copyright 2007, David L Dahl
+http://www.ddahl.com
+Created: 2007-04-20
+
+'Clarify' is the opposite of 'obfuscate'
+"""
 import os
 import sys
-
 
 def dir_to_lst(pth):
     """get a list of files with abs path in a directory"""

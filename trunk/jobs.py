@@ -1,3 +1,12 @@
+"""
+Author: David Dahl
+Copyright 2007, David L Dahl
+http://www.ddahl.com
+Created: 2007-04-20
+
+'Clarify' is the opposite of 'obfuscate'
+"""
+
 import os
 import sys
 import re
