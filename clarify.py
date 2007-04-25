@@ -1,7 +1,8 @@
 """
 Author: David Dahl
+Copyright 2007, David L Dahl
 http://www.ddahl.com
-2007-03-20
+Created: 2007-03-20
 
 Clarify: a wrapper around several tools that convert PDF (as image) to TIFF
 Then, the TIFF is pumped through Tesseract-ocr to capture the text.
@@ -10,8 +11,7 @@ in PDFs released by organizations who have to release the information, but
 do not want the data poked, prodded or searched.
 
 Clarify calls netpbm modules, which converts PDF to PPM to TIFF (via xpdf and netpbm)
-Then, tesseract-ocr is called for each TIFF image, and the resulting data is saved
-as TEXT. 
+Then, tesseract-ocr is called for each TIFF image, and the resulting data is saved as TEXT. 
 
 'Clarify' is the opposite of 'obfuscate'
 """
@@ -229,5 +229,5 @@ class Clarify(object):
 
 if __name__ == '__main__':
     
-    pass
+    print "Call this application via run.py or run_multiple.py"
     
