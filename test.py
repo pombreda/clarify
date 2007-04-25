@@ -1,6 +1,8 @@
 from clarify import *
 from time import sleep
-#DOJDocsPt1-2070319.pdf
+
+"""THIS FILE IS GOING AWAY. USE run.py INSTEAD"""
+
 c = Clarify('/home/david/code/transcript.pdf','/tmp/pdf_ocr')
 info = c.pdf_info()
 

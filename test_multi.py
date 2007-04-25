@@ -3,6 +3,8 @@ from clarify import *
 from time import sleep
 from util import *
 
+"""THIS FILE IS GOING AWAY. USE run_multiple.py INSTEAD"""
+
 count = 1
 
 pdf_lst = dir_to_lst('/home/david/Desktop/dl_cache')
