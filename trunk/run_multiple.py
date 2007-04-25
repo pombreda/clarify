@@ -6,6 +6,11 @@ http://www.ddahl.com
 Created: 2007-04-20
 
 'Clarify' is the opposite of 'obfuscate'
+
+Licensed under Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+
 """
 from time import sleep
 import os
@@ -14,6 +19,10 @@ import re
 from optparse import OptionParser
 
 from clarify import *
+
+#
+#fixme: source pdf's need to have spaces and non [a-z][0-9] chars removed
+#
 
 if __name__ == '__main__':
 
