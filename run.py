@@ -31,6 +31,12 @@ if __name__ == '__main__':
 
     if not cfg.scratchdir:
         cfg.scratchdir = '/tmp/pdf_ocr'
+    
+    if not os.path.exists(cfg.scratchdir):
+        os.system('mkdir %s' % cfg.scratchdir)
+
+    if not os.path.exists(cfg.outputfile):
+        os.system('touch %s' % cfg.outputfile)
         
     c = Clarify(cfg.inputfile,cfg.scratchdir)
     info = c.pdf_info()
