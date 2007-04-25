@@ -5,6 +5,11 @@ http://www.ddahl.com
 Created: 2007-04-20
 
 'Clarify' is the opposite of 'obfuscate'
+
+Licensed under Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+
 """
 
 import os

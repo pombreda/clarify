@@ -14,6 +14,10 @@ Clarify calls netpbm modules, which converts PDF to PPM to TIFF (via xpdf and ne
 Then, tesseract-ocr is called for each TIFF image, and the resulting data is saved as TEXT. 
 
 'Clarify' is the opposite of 'obfuscate'
+
+Licensed under Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
 """
 
 import os
